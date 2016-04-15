@@ -17,3 +17,14 @@ Bob;Smith;bsu;2001;3000
 This is how your program will be run:
 
 python assign6.py NewUser.txt
+
+
+2. Write a python script to help monitor the health of your /etc/passwd file.
+- Find any entries that have UID 0.
+- Find any entries that have no password (needs /etc/shadow).
+- Find any sets of entries that have duplicate UIDs.
+- Find any entries that have no expiration date (needs /etc/shadow).
+
+This is how your program will be run:
+
+python assign5.py
