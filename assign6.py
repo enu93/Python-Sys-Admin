@@ -8,9 +8,8 @@ def createUser(firstName, lastName, password, uid, gid):
 	lname = lastName[:7].lower()
 	name = fname + lname
 	encPass = crypt.crypt(password,"s3")
-	print encPass
-
-
+	return os.system("useradd -p "+encPass+" -u "+uid+" -g "+gid+" "+name)
+	
 # Read input from command line
 input_file = sys.argv[1]
 file = open(input_file)
