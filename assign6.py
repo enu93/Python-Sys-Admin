@@ -3,6 +3,8 @@ import os
 import sys
 import crypt
 
+# define method to create user with first name, last name
+# , password, user id and group id
 def createUser(firstName, lastName, password, uid, gid):
 	fname = firstName[:1].lower()
 	lname = lastName[:7].lower()
