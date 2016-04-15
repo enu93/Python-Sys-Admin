@@ -1,6 +1,8 @@
 # Python-Sys-Admin
 Python Sys Admin
 
+This project is to solve following challenges :
+
 1. Write a python program that reads user information from a file and creates user accounts. The input file will have following format:
 
 FirstName;LastName;Password;UID;GID
