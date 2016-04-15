@@ -20,6 +20,7 @@ This is how your program will be run:
 
 python assign6.py NewUser.txt
 
+===============================================================================
 
 2. Write a python script to help monitor the health of your /etc/passwd file.
 - Find any entries that have UID 0.
