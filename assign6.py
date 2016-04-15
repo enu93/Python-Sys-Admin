@@ -1,11 +1,15 @@
 #!/usr/bin/env python
 import os
 import sys
+import crypt
 
 def createUser(firstName, lastName, password, uid, gid):
 	fname = firstName[:1].lower()
 	lname = lastName[:7].lower()
 	name = fname + lname
+	encPass = crypt.crypt(password,"s3")
+	print encPass
+
 
 # Read input from command line
 input_file = sys.argv[1]
