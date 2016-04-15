@@ -1,0 +1,2 @@
+Alice;McCormick;ballstate;2000;3000
+Bob;Smith;bsu;2001;3000
